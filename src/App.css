@@ -1,0 +1,214 @@
+
+
+body{
+  background-color: #92C7CF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%;
+  height: 100%; */
+  
+}
+.main {
+ background-color: #AAD7D9;
+ width: 65vh;
+ height: 100%;
+ display: flex;
+ align-items: center ;
+ justify-content: center;
+ flex-direction: column;
+
+ 
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  background-color: #FBF9F1;
+  width: 20vh;
+  border: 1px solid #FBF9F1;
+  border-radius: 10px;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+  background-color: #FBF9F1;
+  width: 20vh;
+  border: 1px solid #FBF9F1;
+  border-radius: 10px;
+
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBF9F1;
+  width: 45vh;
+  height: 15vh;
+  border: 1px solid #FBF9F1;
+  border-radius: 10px;
+}
+
+.add-area{
+  display: flex;
+  justify-content: center;
+}
+
+.add-input{
+  width: 30vh;
+  height: 4vh;
+  border: 2px solid black;
+}
+
+.add-btn {
+  width: 10vh;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.add-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+ .filters {
+  display: flex;
+  justify-content: center;
+  margin: 2vh;
+}
+.filter-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh;
+}
+
+.filter-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+
+  background-color: #E5E1DA;
+  color: #1d555e;
+  border-color: #1d555e;
+}
+.filter-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
+  border-color: #4d4d4d;
+  background-color: #E5E1DA;
+  text-decoration: underline;
+}
+.filter-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root[aria-pressed="true"] {
+  border-color: #4d4d4d;
+  background-color: #E5E1DA;
+  text-decoration: underline;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  background-color: #FBF9F1;
+  border: 1px solid #FBF9F1;
+  border-radius: 10px;
+  
+}
+
+.output{
+  width: 100%;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.check {
+  box-sizing: border-box;
+  width: 25px;
+  height: 25px;
+  left: -2px;
+  top: -2px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.task {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  font-size: large;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vh;
+}
+.edit-btn.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  
+  cursor: pointer;
+  width: 12vh;
+  height: 4vh;
+}
+
+
+.delete-btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #ca3c3c;
+  color: white;
+  padding: 5px;
+  width: 12vh;
+  height: 4vh;
+}
+
+.editing{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.edit-form{
+  display: flex;
+  justify-content: center;
+
+}
+.edit-input {
+  margin: 5px;
+  width: 20vh;
+  height: 3vh;
+  border: 2px solid black;
+}
+
+.save-btn.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  width: 12vh;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+
+.cancel-btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+ 
+  cursor: pointer;
+  padding: 5px;
+  width: 12vh;
+  height: 4vh;
+}
+
+.cancel-btn:hover{
+  cursor: pointer;
+}
+
